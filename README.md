@@ -7,3 +7,6 @@ some of which I have never used before, or used very little.
 These solutions are in Clojure. This is the first Clojure code I have ever written, so it's probably not very good.
 
 Regardless, I enjoyed this little introduction to the Lisp family of languages.
+
+## Day 2
+These solutions are in Rust. I'd say I am intermediate at Rust, but it's been a little while since I've written any. Rust is just as good as I remember.

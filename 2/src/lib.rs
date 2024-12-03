@@ -3,17 +3,15 @@ use std::io::{self, BufRead};
 use std::path::Path;
 
 pub fn parse_line(line: &str) -> Vec<i32> {
-    line.split(' ')
-        .map(|c| c.parse::<i32>().unwrap())
-        .collect()
+    line.split(' ').map(|c| c.parse::<i32>().unwrap()).collect()
 }
 
 pub fn read_input(path: &Path) -> Result<Vec<Vec<i32>>, std::io::Error> {
     let file = File::open(path)?;
     let lines = io::BufReader::new(file)
-                .lines()
-                .map(|line| parse_line(&line.unwrap()))
-                .collect();
+        .lines()
+        .map(|line| parse_line(&line.unwrap()))
+        .collect();
 
     Ok(lines)
 }
@@ -53,6 +51,5 @@ pub fn is_row_ok_tolerant(row: &[i32]) -> bool {
     // since there's no way a row could become invalid by removing an element.
     (0..row.len())
         .map(|i| [&row[..i], &row[i + 1..]].concat())
-        .map(|row_except_i| is_row_ok(&row_except_i))
-        .any(|ok| ok)
+        .any(|row_except_i| is_row_ok(&row_except_i))
 }

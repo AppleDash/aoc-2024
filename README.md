@@ -10,3 +10,6 @@ Regardless, I enjoyed this little introduction to the Lisp family of languages.
 
 ## Day 2
 These solutions are in Rust. I'd say I am intermediate at Rust, but it's been a little while since I've written any. Rust is just as good as I remember.
+
+## Day 3
+These solutions are in Python. Python is one of my first programming languages from way back in 2012 or so. This isn't the cleanest code but I wrote it quick and it works.

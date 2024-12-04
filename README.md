@@ -13,3 +13,6 @@ These solutions are in Rust. I'd say I am intermediate at Rust, but it's been a 
 
 ## Day 3
 These solutions are in Python. Python is one of my first programming languages from way back in 2012 or so. This isn't the cleanest code but I wrote it quick and it works.
+
+## Day 4
+These solutions are in Ruby. Ruby is one of the languages I'm most proficient in, but this is also not the cleanest code due to time constraints as with Day 3.

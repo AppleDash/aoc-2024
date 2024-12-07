@@ -19,3 +19,7 @@ These solutions are in Ruby. Ruby is one of the languages I'm most proficient in
 
 ## Day 5
 These solutions are in TypeScript. TypeScript is one of my favorite languages. I'm happy with the implementation I came up for it, though I'm sure it could be improved.
+
+## Day 6
+These solutions are in Go. It's been awhile since I've worked in Go, so this was a nice refresher. The implementation for Part 2 is a bit bruteforcey, and I'd love to figure
+out a more efficient way to do it.

@@ -16,3 +16,6 @@ These solutions are in Python. Python is one of my first programming languages f
 
 ## Day 4
 These solutions are in Ruby. Ruby is one of the languages I'm most proficient in, but this is also not the cleanest code due to time constraints as with Day 3.
+
+## Day 5
+These solutions are in TypeScript. TypeScript is one of my favorite languages. I'm happy with the implementation I came up for it, though I'm sure it could be improved.

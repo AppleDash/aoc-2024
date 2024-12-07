@@ -1,21 +1,22 @@
 package main
 
 import (
-	"strings"
 	"io/ioutil"
+	"strings"
 )
+
 // Represented in the order such that incrementing them turns right.
 const (
-	Up = iota
+	Up    = iota
 	Right = iota
-	Down = iota
-	Left = iota
+	Down  = iota
+	Left  = iota
 )
 
 type Point struct {
-	X int
-	Y int
-    Heading int
+	X       int
+	Y       int
+	Heading int
 }
 
 func rotateRight(heading int) (newHeading int) {
@@ -52,7 +53,7 @@ func findGuardStart(input []string) Point {
 
 // This function only works with ASCII, but the input is ASCII,
 // so it's alright in this case.
-func getAt(input[] string, point Point) byte {
+func getAt(input []string, point Point) byte {
 	if point.Y < 0 || point.Y >= len(input) {
 		return 0
 	}
@@ -67,17 +68,17 @@ func getAt(input[] string, point Point) byte {
 }
 
 func moveForward(input []string, point Point) (newPoint Point) {
-    newPoint = point
+	newPoint = point
 	switch point.Heading {
-		case Up:
-            newPoint.Y--
-			// newPoint = Point{point.X, point.Y - 1, point.Heading}
-		case Right:
-            newPoint.X++
-		case Down:
-            newPoint.Y++
-		case Left:
-            newPoint.X--
+	case Up:
+		newPoint.Y--
+		// newPoint = Point{point.X, point.Y - 1, point.Heading}
+	case Right:
+		newPoint.X++
+	case Down:
+		newPoint.Y++
+	case Left:
+		newPoint.X--
 	}
 
 	return
@@ -97,12 +98,12 @@ func step(input []string, point Point) Point {
 	c := detectForward(input, point)
 
 	switch c {
-		case 0:
-            point.Heading = -1 // Left the map!
-		case '#':
-            point.Heading = rotateRight(point.Heading)
-		default:
-			point = moveForward(input, point)
+	case 0:
+		point.Heading = -1 // Left the map!
+	case '#':
+		point.Heading = rotateRight(point.Heading)
+	default:
+		point = moveForward(input, point)
 	}
 
 	return point

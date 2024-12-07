@@ -14,19 +14,19 @@ func compute(input []string) bool {
 		point = step(input, point)
 
 		if !positions.Insert(point) {
-            // We've already been at this point, going this heading.
-            // We're caught in a loop!
-            return true
-        }
+			// We've already been at this point, going this heading.
+			// We're caught in a loop!
+			return true
+		}
 	}
 
 	return false
 }
 
 func replaceChar(input []string, x int, y int, c byte) {
-    bytes := []byte(input[y])
-    bytes[x] = c
-    input[y] = string(bytes)
+	bytes := []byte(input[y])
+	bytes[x] = c
+	input[y] = string(bytes)
 }
 
 func main() {
@@ -37,21 +37,21 @@ func main() {
 		return
 	}
 
-    count := 0
+	count := 0
 
-    // Try every position for a new obstacle, and count the ones that
-    // result in a loop.
-    for y := 0; y < len(input); y++ {
-        for x := 0; x < len(input[0]); x++ {
-            if input[y][x] == '.' {
-                replaceChar(input, x, y, '#')
-                if compute(input) {
-                    count += 1
-                }
-                replaceChar(input, x, y, '.')
-            }
-        }
-    }
+	// Try every position for a new obstacle, and count the ones that
+	// result in a loop.
+	for y := 0; y < len(input); y++ {
+		for x := 0; x < len(input[0]); x++ {
+			if input[y][x] == '.' {
+				replaceChar(input, x, y, '#')
+				if compute(input) {
+					count += 1
+				}
+				replaceChar(input, x, y, '.')
+			}
+		}
+	}
 
-    println(count)
+	println(count)
 }

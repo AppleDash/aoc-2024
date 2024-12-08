@@ -23,3 +23,8 @@ These solutions are in TypeScript. TypeScript is one of my favorite languages. I
 ## Day 6
 These solutions are in Go. It's been awhile since I've worked in Go, so this was a nice refresher. The implementation for Part 2 is a bit bruteforcey, and I'd love to figure
 out a more efficient way to do it.
+
+## Day 7
+These solutions are in Haskell. I have never written anything significant in Haskell before. Writing this kind of felt like my brain was upside down. It was a lot of fun at first, though.
+
+The implementation is very much a bruteforce, however, I just really don't feel like optimizing it right now when I'm this new to the Haskell language and I already have a headache. I recognize there are many opportunities for improvement, such as only evaluating part of each sequence, and skipping the whole thing if it starts to yield a result that is bigger than the expected result. This would be trivial for me to figure out in procedural language. Maybe I'll revisit this solution sometime once I'm done the month!

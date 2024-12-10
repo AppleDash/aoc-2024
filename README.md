@@ -28,3 +28,6 @@ out a more efficient way to do it.
 These solutions are in Haskell. I have never written anything significant in Haskell before. Writing this kind of felt like my brain was upside down. It was a lot of fun at first, though.
 
 The implementation is very much a bruteforce, however, I just really don't feel like optimizing it right now when I'm this new to the Haskell language and I already have a headache. I recognize there are many opportunities for improvement, such as only evaluating part of each sequence, and skipping the whole thing if it starts to yield a result that is bigger than the expected result. This would be trivial for me to figure out in procedural language. Maybe I'll revisit this solution sometime once I'm done the month!
+
+## Day 8
+These solutions are in Swift. I'd never used Swift before today, but it's a really cool language that I'd feel comfortable doing more work in. This problem was a math problem disguised as a programming problem, which I don't really like, and it took me awhile to puzzle it out.

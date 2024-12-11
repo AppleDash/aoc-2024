@@ -31,3 +31,7 @@ The implementation is very much a bruteforce, however, I just really don't feel 
 
 ## Day 8
 These solutions are in Swift. I'd never used Swift before today, but it's a really cool language that I'd feel comfortable doing more work in. This problem was a math problem disguised as a programming problem, which I don't really like, and it took me awhile to puzzle it out.
+
+## Day 9
+These solutions are in Kotlin. I've got plenty of Kotlin experience, and it was nice to work in it again. I think this is a reasonably well-optimized solution!
+

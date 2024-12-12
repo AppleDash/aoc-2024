@@ -37,3 +37,6 @@ These solutions are in Kotlin. I've got plenty of Kotlin experience, and it was 
 
 ## Day 10
 These solutions are in Elixir. I've written a bunch of Elixir before, usually with the Phoenix framework. It's like Haskell if it was a little bit more cool! I got lucky - the implementation I chose for Part 1 lent itself easily to being able to solve Part 2 with a 1-line change.
+
+## Day 11
+These solutions are in C#. C# was my very first real programming language, and I've continued to use it ever since. My initial solution to Part 1 was the obvious brute-force solution, and then as soon as I saw Part 2 I knew there would be trouble. A good friend of mine helped me with coming up with a much better solution, and in the process I learned a lot about how to think about problems like this in non-obvious (to me) ways.

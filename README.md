@@ -35,3 +35,5 @@ These solutions are in Swift. I'd never used Swift before today, but it's a real
 ## Day 9
 These solutions are in Kotlin. I've got plenty of Kotlin experience, and it was nice to work in it again. I think this is a reasonably well-optimized solution!
 
+## Day 10
+These solutions are in Elixir. I've written a bunch of Elixir before, usually with the Phoenix framework. It's like Haskell if it was a little bit more cool! I got lucky - the implementation I chose for Part 1 lent itself easily to being able to solve Part 2 with a 1-line change.
